@@ -1,0 +1,315 @@
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/circuit.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+
+.overlay-link {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    background-color: rgb(117, 117, 117); 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.overlay-link:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:#9EAFC1;
+}
+
+.nav1 {
+    text-align: left;
+    background-color: rgb(196, 102, 59); 
+    padding: 40px;
+    padding-left: 70px;
+}
+
+.nav2 {
+    padding-left: 70px;
+    background-color:rgb(196, 102, 59);
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav3 {
+    background-color:rgb(196, 102, 59);
+    padding-left: 500px;
+    display: inline-block; 
+}
+
+.nav4 {
+    background-color:rgb(196, 102, 59);
+    display: flex; 
+    justify-content: center;
+   
+}
+
+.nav4 li {
+    background-color:rgb(196, 102, 59);
+    margin: 0 40px; 
+}
+
+.nav5 {
+    text-decoration: none;
+    color:black;
+    font-size: 23px;
+}
+
+.nav5:hover {
+    text-decoration: underline; 
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.left-image {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    margin-left: 20px; 
+    width: 500px;
+    height: 500px; 
+    max-width: none; 
+}
+
+.text-content {
+    padding-top: 200px;
+    text-align: center;
+}
+.clearfix1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(196, 102, 59);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color:rgb(196, 102, 59);
+}
+
+p{
+    text-align: center;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h2{
+    padding-top: 100px;
+}
+h2{
+    padding-top: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+h3{
+    font-size: 80px;
+    text-align: center;
+}
+p{
+padding-top: 20px;;
+text-align: center;
+font-size: 20px;;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px; 
+}
+.image-container {
+    overflow: hidden; 
+    text-align: center; 
+}
+
+.image-container img {
+    float: left;
+    margin: 10px;
+    width: 45%; 
+    height: auto;
+}
+
+.button1 {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(196, 102, 59);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto 0; 
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color:rgb(196, 102, 59);
+}
+
+.imaggi{
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.button3 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(196, 102, 59);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button3:hover {
+    background-color: gb(117, 117, 117);
+}
+.right-image {
+    padding-right: 200px;
+    padding-top: 50px;
+    float: right;
+    margin-right: 20px; 
+    width: 500px; 
+    height: 450px; 
+}
+
+.text-content {
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+h4{
+    font-size: 60px;
+    
+}
+.foot{
+    text-align: center;
+    background-color:(117, 117, 117) ;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background-image {
+    background: url("../img/circuit.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    width: 80%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    border-color: black;
+}
+
+.box-image {
+    width: 150px; 
+    height: 100px; 
+    object-fit: cover;
+    margin-right: 20px; 
+}
+
+.box-text h2 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+.box-text p {
+    margin: 0;
+    font-size: 16px; 
+}
+.box1 {
+    position: absolute; 
+    right: 200px; 
+    width: 600px;
+    bottom: 300px; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    border-color: black;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    margin-left: 300px;
+}
+
+
+
+.text-content h6 {
+    
+    font-size: 25px;
+    margin-top: 0; 
+    color: #333; 
+}
+
+footer{
+    background-color:rgb(196, 102, 59);
+    height: 50px;
+    text-align: center;
+}
